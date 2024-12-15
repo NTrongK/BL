@@ -8,7 +8,7 @@ local FlowsTab = DrRayLibrary.newTab("Flows", "")
 -- Function to roll for the desired flow
 local function rollFlow(flowName)
     local player = game.Players.LocalPlayer
-    local flowService = game:GetService("ReplicatedStorage").Packages.Knit.Services.StyleService.RE.Spin
+    local flowService = game:GetService("ReplicatedStorage").Packages.Knit.Services.FlowService.RE.Spin
 
     while true do
         task.wait(0.3) -- Add a slight delay for performance
